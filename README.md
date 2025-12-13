@@ -24,8 +24,8 @@ Prima di iniziare, assicurati di avere installato:
 Apri il terminale (o PowerShell) e scarica il progetto:
 
 ```bash
-git clone https://github.com/fabiobassini/progetto_2_PW25.git
-cd progetto_2_PW25
+git clone https://github.com/fabiobassini/progetto_2_pw25.git
+cd progetto_2_pw25
 ```
 
 
