@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="h4 fw-bold text-dark">Registro Fatture</h2>
+</div>
+
+<!-- Filtri -->
+<div class="card shadow-sm mb-4 border-0 rounded-3">
+    <div class="card-body p-4 bg-white rounded-3">
+        <form method="get" class="row g-3">
+            <div class="col-md-3">
+                <label class="form-label small text-secondary fw-bold">Numero Fattura</label>
+                {{ form.numero }}
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small text-secondary fw-bold">Data da</label>
+                {{ form.data_da }}
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small text-secondary fw-bold">Data a</label>
+                {{ form.data_a }}
+            </div>
+            <div class="col-md-3 d-flex align-items-end gap-2">
+                <button type="submit" class="btn btn-dark w-100">Cerca</button>
+                <a href="{% url 'fattura_list' %}" class="btn btn-outline-secondary w-100">Reset</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Tabella -->
+<div class="card shadow-sm border-0 rounded-3 overflow-hidden">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th class="ps-4 py-3">Numero</th>
+                    <th class="py-3">Data Emissione</th>
+                    <th class="py-3 text-end">Imponibile</th>
+                    <th class="py-3 text-end">IVA</th>
+                    <th class="py-3 text-end pe-4">Totale</th>
+                    <th class="py-3 text-center">Dettagli Letture</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white">
+                {% for f in fatture %}
+                <tr>
+                    <td class="ps-4 fw-bold text-dark">#{{ f.numero }}</td>
+                    <td class="text-secondary">{{ f.data|date:"d/m/Y" }}</td>
+                    <td class="text-end font-monospace">€ {{ f.imponibile }}</td>
+                    <td class="text-end font-monospace">€ {{ f.iva }}</td>
+                    <td class="text-end pe-4 fw-bold font-monospace">€ {{ f.totale }}</td>
+                    <td class="text-center">
+                        {% if f.num_letture > 0 %}
+                        <a href="{% url 'lettura_list' %}?fattura_id={{ f.numero }}"
+                            class="btn btn-sm btn-outline-dark rounded-pill px-3">
+                            Vedi {{ f.num_letture }} letture
+                        </a>
+                        {% else %}
+                        <span class="text-muted small">&mdash;</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="6" class="text-center py-5 text-muted">
+                        Nessuna fattura trovata.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

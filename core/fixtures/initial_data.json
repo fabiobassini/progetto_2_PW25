@@ -1,0 +1,2312 @@
+[
+{
+  "model": "core.cliente",
+  "pk": 1,
+  "fields": {
+    "cf": "RSSMRA80A01F205X",
+    "rag_soc": "Rossi Mario",
+    "indirizzo": "Via Roma 10",
+    "citta": "Bergamo"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 2,
+  "fields": {
+    "cf": "BNCLGI75B12H501Y",
+    "rag_soc": "Bianchi Luigi",
+    "indirizzo": "Corso Italia 25",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 3,
+  "fields": {
+    "cf": "VRDGPP90C20L219Z",
+    "rag_soc": "Verdi Giuseppe",
+    "indirizzo": "Via Verdi 3",
+    "citta": "Brescia"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 4,
+  "fields": {
+    "cf": "MNTLRA85M56G273S",
+    "rag_soc": "Monti Laura",
+    "indirizzo": "Viale della Repubblica 150",
+    "citta": "Roma"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 5,
+  "fields": {
+    "cf": "GLLFNC78H05F839K",
+    "rag_soc": "Galli Francesco",
+    "indirizzo": "Piazza Duomo 1",
+    "citta": "Firenze"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 6,
+  "fields": {
+    "cf": "RZZGRG82L15A944W",
+    "rag_soc": "Rizzi Giorgio",
+    "indirizzo": "Via Garibaldi 42",
+    "citta": "Torino"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 7,
+  "fields": {
+    "cf": "FRRNTN88A41H501D",
+    "rag_soc": "Ferrari Antonio",
+    "indirizzo": "Corso Buenos Aires 77",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 8,
+  "fields": {
+    "cf": "CRTEGN72C60F205R",
+    "rag_soc": "Costa Angela",
+    "indirizzo": "Via XX Settembre 30",
+    "citta": "Genova"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 9,
+  "fields": {
+    "cf": "MRNSPA91E12L736B",
+    "rag_soc": "Marini SpA",
+    "indirizzo": "Zona Industriale Pip",
+    "citta": "Napoli"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 10,
+  "fields": {
+    "cf": "SNTSRL89P01A001V",
+    "rag_soc": "Santi Srl",
+    "indirizzo": "Via Appia Nuova 600",
+    "citta": "Roma"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 11,
+  "fields": {
+    "cf": "LMBRDI70A01F205Z",
+    "rag_soc": "Lombardi & Figli Snc",
+    "indirizzo": "Via Mazzini 12",
+    "citta": "Bologna"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 12,
+  "fields": {
+    "cf": "GRSPLC65D12H501X",
+    "rag_soc": "Galli Paolo",
+    "indirizzo": "Piazza San Marco 1",
+    "citta": "Venezia"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 13,
+  "fields": {
+    "cf": "DMCSRA83T54F839Y",
+    "rag_soc": "De Luca Sara",
+    "indirizzo": "Lungarno Mediceo 33",
+    "citta": "Pisa"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 14,
+  "fields": {
+    "cf": "FNTSFN68M20L219A",
+    "rag_soc": "Fontana Stefano",
+    "indirizzo": "Via Indipendenza 88",
+    "citta": "Bologna"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 15,
+  "fields": {
+    "cf": "RMNRRT81B45A944C",
+    "rag_soc": "Romano Roberta",
+    "indirizzo": "Via Po 5",
+    "citta": "Torino"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 16,
+  "fields": {
+    "cf": "GLLGNN86H01H501F",
+    "rag_soc": "Gallo Giovanni",
+    "indirizzo": "Via Montenapoleone 8",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 17,
+  "fields": {
+    "cf": "CNTCHR76L61F205E",
+    "rag_soc": "Conti Chiara",
+    "indirizzo": "Via San Lorenzo 10",
+    "citta": "Genova"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 18,
+  "fields": {
+    "cf": "RCCNNA93D48L736G",
+    "rag_soc": "Ricci Anna",
+    "indirizzo": "Via Toledo 150",
+    "citta": "Napoli"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 19,
+  "fields": {
+    "cf": "BRNGRG79A01A001H",
+    "rag_soc": "Bruno Giorgio",
+    "indirizzo": "Via del Corso 300",
+    "citta": "Roma"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 20,
+  "fields": {
+    "cf": "GRSSPA84C12F205I",
+    "rag_soc": "Grassi SpA",
+    "indirizzo": "Via dell Innovazione 1",
+    "citta": "Bergamo"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 21,
+  "fields": {
+    "cf": "FNTLCA71M01H501L",
+    "rag_soc": "Fontana Luca",
+    "indirizzo": "Piazza della Scala 1",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 22,
+  "fields": {
+    "cf": "RVAELN87S60L219M",
+    "rag_soc": "Riva Elena",
+    "indirizzo": "Contrada dei Mille 20",
+    "citta": "Brescia"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 23,
+  "fields": {
+    "cf": "MRNFNC90A01F839N",
+    "rag_soc": "Marini Francesco",
+    "indirizzo": "Via de Tornabuoni 5",
+    "citta": "Firenze"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 24,
+  "fields": {
+    "cf": "LNTDNL74B15A944P",
+    "rag_soc": "Leone Daniele",
+    "indirizzo": "Via Roma 250",
+    "citta": "Torino"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 25,
+  "fields": {
+    "cf": "GRDNDR78H45H501Q",
+    "rag_soc": "Giordano Andrea",
+    "indirizzo": "Corso Vittorio Emanuele II 100",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 26,
+  "fields": {
+    "cf": "SNTMRA69L61F205R",
+    "rag_soc": "Santi Maria",
+    "indirizzo": "Salita di San Gerolamo 15",
+    "citta": "Genova"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 27,
+  "fields": {
+    "cf": "ESPSMN95D48L736S",
+    "rag_soc": "Esposito Simone",
+    "indirizzo": "Riviera di Chiaia 200",
+    "citta": "Napoli"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 28,
+  "fields": {
+    "cf": "RZZGVN67A01A001T",
+    "rag_soc": "Rizzo Giovanni",
+    "indirizzo": "Via Cola di Rienzo 180",
+    "citta": "Roma"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 29,
+  "fields": {
+    "cf": "CLMSPA82C12F205U",
+    "rag_soc": "Colombo SpA",
+    "indirizzo": "Via Papa Giovanni XXIII 50",
+    "citta": "Bergamo"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 30,
+  "fields": {
+    "cf": "PLMRCR85A15H501V",
+    "rag_soc": "Palmeri Marco",
+    "indirizzo": "Viale Europa 90",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 31,
+  "fields": {
+    "cf": "FSTPQL80A01H501A",
+    "rag_soc": "Festa Pasquale",
+    "indirizzo": "Via Colombo 110",
+    "citta": "Genova"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 32,
+  "fields": {
+    "cf": "GRLDNA82M56G273B",
+    "rag_soc": "Gerlandi Anna",
+    "indirizzo": "Piazza Navona 50",
+    "citta": "Roma"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 33,
+  "fields": {
+    "cf": "MNCFNC75H05F839C",
+    "rag_soc": "Mancini Francesco",
+    "indirizzo": "Via dei Calzaiuoli 2",
+    "citta": "Firenze"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 34,
+  "fields": {
+    "cf": "PSTVRA90C20L219D",
+    "rag_soc": "Posti Vera",
+    "indirizzo": "Corso Magenta 15",
+    "citta": "Brescia"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 35,
+  "fields": {
+    "cf": "SRTMRA85A41H501E",
+    "rag_soc": "Sarti Maria",
+    "indirizzo": "Via Torino 101",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 36,
+  "fields": {
+    "cf": "VLLRRT78L15A944F",
+    "rag_soc": "Valli Roberto",
+    "indirizzo": "Piazza Castello 33",
+    "citta": "Torino"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 37,
+  "fields": {
+    "cf": "ZNNLCA69E12L736G",
+    "rag_soc": "Zanini Luca",
+    "indirizzo": "Via Chiaia 210",
+    "citta": "Napoli"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 38,
+  "fields": {
+    "cf": "BRGLRA72A01F205H",
+    "rag_soc": "Barigelli Laura",
+    "indirizzo": "Via Tasso 5",
+    "citta": "Bergamo"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 39,
+  "fields": {
+    "cf": "CSTGNN88B12H501I",
+    "rag_soc": "Costa Giovanni",
+    "indirizzo": "Via Solferino 22",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 40,
+  "fields": {
+    "cf": "DLLVRA81C60F205J",
+    "rag_soc": "Dalla Vera Snc",
+    "indirizzo": "Vico Casana 3r",
+    "citta": "Genova"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 41,
+  "fields": {
+    "cf": "ESPCHR95D20L219K",
+    "rag_soc": "Esposito Chiara",
+    "indirizzo": "Via Gramsci 80",
+    "citta": "Bologna"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 42,
+  "fields": {
+    "cf": "FBBGPP76M45A944L",
+    "rag_soc": "Fabbri Giuseppe",
+    "indirizzo": "Lungo Po Diaz 10",
+    "citta": "Torino"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 43,
+  "fields": {
+    "cf": "GRLLRA91A01A001M",
+    "rag_soc": "Grilli Laura",
+    "indirizzo": "Via Frattina 99",
+    "citta": "Roma"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 44,
+  "fields": {
+    "cf": "LGHPLC70S12H501N",
+    "rag_soc": "Longhi Paolo",
+    "indirizzo": "Via della Spiga 1",
+    "citta": "Milano"
+  }
+},
+{
+  "model": "core.cliente",
+  "pk": 45,
+  "fields": {
+    "cf": "MRCSMN84H48L736P",
+    "rag_soc": "Marchetti Simone",
+    "indirizzo": "Corso Umberto I 250",
+    "citta": "Napoli"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 1,
+  "fields": {
+    "cliente": 1,
+    "data_apertura": "2021-01-10",
+    "indirizzo": "Via Roma 10",
+    "citta": "Bergamo",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 2,
+  "fields": {
+    "cliente": 1,
+    "data_apertura": "2019-03-05",
+    "indirizzo": "Via Leopardi 5",
+    "citta": "Bergamo",
+    "stato": "inattivo",
+    "data_chiusura": "2022-06-30"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 3,
+  "fields": {
+    "cliente": 2,
+    "data_apertura": "2020-07-01",
+    "indirizzo": "Corso Italia 25",
+    "citta": "Milano",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 4,
+  "fields": {
+    "cliente": 3,
+    "data_apertura": "2022-05-20",
+    "indirizzo": "Via Verdi 3",
+    "citta": "Brescia",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 5,
+  "fields": {
+    "cliente": 4,
+    "data_apertura": "2018-11-15",
+    "indirizzo": "Viale della Repubblica 150",
+    "citta": "Roma",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 6,
+  "fields": {
+    "cliente": 5,
+    "data_apertura": "2023-02-01",
+    "indirizzo": "Piazza Duomo 1",
+    "citta": "Firenze",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 7,
+  "fields": {
+    "cliente": 6,
+    "data_apertura": "2017-09-10",
+    "indirizzo": "Via Garibaldi 42",
+    "citta": "Torino",
+    "stato": "inattivo",
+    "data_chiusura": "2024-01-15"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 8,
+  "fields": {
+    "cliente": 7,
+    "data_apertura": "2021-08-01",
+    "indirizzo": "Corso Buenos Aires 77",
+    "citta": "Milano",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 9,
+  "fields": {
+    "cliente": 8,
+    "data_apertura": "2019-06-12",
+    "indirizzo": "Via XX Settembre 30",
+    "citta": "Genova",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 10,
+  "fields": {
+    "cliente": 9,
+    "data_apertura": "2020-03-18",
+    "indirizzo": "Zona Industriale Pip",
+    "citta": "Napoli",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 11,
+  "fields": {
+    "cliente": 10,
+    "data_apertura": "2022-10-05",
+    "indirizzo": "Via Appia Nuova 600",
+    "citta": "Roma",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 12,
+  "fields": {
+    "cliente": 11,
+    "data_apertura": "2015-04-22",
+    "indirizzo": "Via Mazzini 12",
+    "citta": "Bologna",
+    "stato": "inattivo",
+    "data_chiusura": "2023-09-30"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 13,
+  "fields": {
+    "cliente": 12,
+    "data_apertura": "2023-01-15",
+    "indirizzo": "Piazza San Marco 1",
+    "citta": "Venezia",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 14,
+  "fields": {
+    "cliente": 13,
+    "data_apertura": "2021-12-01",
+    "indirizzo": "Lungarno Mediceo 33",
+    "citta": "Pisa",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 15,
+  "fields": {
+    "cliente": 14,
+    "data_apertura": "2016-02-28",
+    "indirizzo": "Via Indipendenza 88",
+    "citta": "Bologna",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 16,
+  "fields": {
+    "cliente": 15,
+    "data_apertura": "2022-08-10",
+    "indirizzo": "Via Po 5",
+    "citta": "Torino",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 17,
+  "fields": {
+    "cliente": 16,
+    "data_apertura": "2020-05-14",
+    "indirizzo": "Via Montenapoleone 8",
+    "citta": "Milano",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 18,
+  "fields": {
+    "cliente": 17,
+    "data_apertura": "2018-07-21",
+    "indirizzo": "Via San Lorenzo 10",
+    "citta": "Genova",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 19,
+  "fields": {
+    "cliente": 18,
+    "data_apertura": "2023-03-01",
+    "indirizzo": "Via Toledo 150",
+    "citta": "Napoli",
+    "stato": "inattivo",
+    "data_chiusura": "2024-05-20"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 20,
+  "fields": {
+    "cliente": 19,
+    "data_apertura": "2019-09-09",
+    "indirizzo": "Via del Corso 300",
+    "citta": "Roma",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 21,
+  "fields": {
+    "cliente": 20,
+    "data_apertura": "2022-11-30",
+    "indirizzo": "Via dell Innovazione 1",
+    "citta": "Bergamo",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 22,
+  "fields": {
+    "cliente": 21,
+    "data_apertura": "2017-01-25",
+    "indirizzo": "Piazza della Scala 1",
+    "citta": "Milano",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 23,
+  "fields": {
+    "cliente": 22,
+    "data_apertura": "2023-06-10",
+    "indirizzo": "Contrada dei Mille 20",
+    "citta": "Brescia",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 24,
+  "fields": {
+    "cliente": 23,
+    "data_apertura": "2020-02-11",
+    "indirizzo": "Via de Tornabuoni 5",
+    "citta": "Firenze",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 25,
+  "fields": {
+    "cliente": 24,
+    "data_apertura": "2018-10-01",
+    "indirizzo": "Via Roma 250",
+    "citta": "Torino",
+    "stato": "inattivo",
+    "data_chiusura": "2023-12-31"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 26,
+  "fields": {
+    "cliente": 25,
+    "data_apertura": "2021-04-05",
+    "indirizzo": "Corso Vittorio Emanuele II 100",
+    "citta": "Milano",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 27,
+  "fields": {
+    "cliente": 26,
+    "data_apertura": "2016-08-19",
+    "indirizzo": "Salita di San Gerolamo 15",
+    "citta": "Genova",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 28,
+  "fields": {
+    "cliente": 27,
+    "data_apertura": "2023-09-01",
+    "indirizzo": "Riviera di Chiaia 200",
+    "citta": "Napoli",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 29,
+  "fields": {
+    "cliente": 28,
+    "data_apertura": "2019-12-12",
+    "indirizzo": "Via Cola di Rienzo 180",
+    "citta": "Roma",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 30,
+  "fields": {
+    "cliente": 29,
+    "data_apertura": "2022-02-20",
+    "indirizzo": "Via Papa Giovanni XXIII 50",
+    "citta": "Bergamo",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 31,
+  "fields": {
+    "cliente": 30,
+    "data_apertura": "2018-03-15",
+    "indirizzo": "Viale Europa 90",
+    "citta": "Milano",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 32,
+  "fields": {
+    "cliente": 31,
+    "data_apertura": "2023-01-20",
+    "indirizzo": "Via Colombo 110",
+    "citta": "Genova",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 33,
+  "fields": {
+    "cliente": 32,
+    "data_apertura": "2022-04-14",
+    "indirizzo": "Piazza Navona 50",
+    "citta": "Roma",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 34,
+  "fields": {
+    "cliente": 33,
+    "data_apertura": "2021-09-01",
+    "indirizzo": "Via dei Calzaiuoli 2",
+    "citta": "Firenze",
+    "stato": "inattivo",
+    "data_chiusura": "2024-08-31"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 35,
+  "fields": {
+    "cliente": 34,
+    "data_apertura": "2023-10-02",
+    "indirizzo": "Corso Magenta 15",
+    "citta": "Brescia",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 36,
+  "fields": {
+    "cliente": 35,
+    "data_apertura": "2020-11-25",
+    "indirizzo": "Via Torino 101",
+    "citta": "Milano",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 37,
+  "fields": {
+    "cliente": 36,
+    "data_apertura": "2019-01-30",
+    "indirizzo": "Piazza Castello 33",
+    "citta": "Torino",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 38,
+  "fields": {
+    "cliente": 37,
+    "data_apertura": "2023-05-18",
+    "indirizzo": "Via Chiaia 210",
+    "citta": "Napoli",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 39,
+  "fields": {
+    "cliente": 38,
+    "data_apertura": "2022-06-06",
+    "indirizzo": "Via Tasso 5",
+    "citta": "Bergamo",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 40,
+  "fields": {
+    "cliente": 39,
+    "data_apertura": "2021-02-15",
+    "indirizzo": "Via Solferino 22",
+    "citta": "Milano",
+    "stato": "inattivo",
+    "data_chiusura": "2023-11-30"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 41,
+  "fields": {
+    "cliente": 40,
+    "data_apertura": "2023-11-01",
+    "indirizzo": "Vico Casana 3r",
+    "citta": "Genova",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 42,
+  "fields": {
+    "cliente": 41,
+    "data_apertura": "2020-08-08",
+    "indirizzo": "Via Gramsci 80",
+    "citta": "Bologna",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 43,
+  "fields": {
+    "cliente": 42,
+    "data_apertura": "2022-09-17",
+    "indirizzo": "Lungo Po Diaz 10",
+    "citta": "Torino",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 44,
+  "fields": {
+    "cliente": 43,
+    "data_apertura": "2023-03-23",
+    "indirizzo": "Via Frattina 99",
+    "citta": "Roma",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 45,
+  "fields": {
+    "cliente": 44,
+    "data_apertura": "2018-05-12",
+    "indirizzo": "Via della Spiga 1",
+    "citta": "Milano",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 46,
+  "fields": {
+    "cliente": 45,
+    "data_apertura": "2024-01-10",
+    "indirizzo": "Corso Umberto I 250",
+    "citta": "Napoli",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 47,
+  "fields": {
+    "cliente": 1,
+    "data_apertura": "2024-02-01",
+    "indirizzo": "Via Camozzi 123",
+    "citta": "Bergamo",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 48,
+  "fields": {
+    "cliente": 4,
+    "data_apertura": "2023-07-07",
+    "indirizzo": "Via del Tritone 10",
+    "citta": "Roma",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 49,
+  "fields": {
+    "cliente": 7,
+    "data_apertura": "2022-12-12",
+    "indirizzo": "Viale Monza 300",
+    "citta": "Milano",
+    "stato": "inattivo",
+    "data_chiusura": "2024-10-10"
+  }
+},
+{
+  "model": "core.utenza",
+  "pk": 50,
+  "fields": {
+    "cliente": 15,
+    "data_apertura": "2024-03-01",
+    "indirizzo": "Via Nizza 50",
+    "citta": "Torino",
+    "stato": "attivo",
+    "data_chiusura": null
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 1,
+  "fields": {
+    "data": "2024-01-31",
+    "imponibile": "100.00",
+    "iva": "10.00",
+    "totale": "110.00"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 2,
+  "fields": {
+    "data": "2024-02-29",
+    "imponibile": "150.00",
+    "iva": "15.00",
+    "totale": "165.00"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 3,
+  "fields": {
+    "data": "2024-03-31",
+    "imponibile": "120.50",
+    "iva": "12.05",
+    "totale": "132.55"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 4,
+  "fields": {
+    "data": "2024-04-30",
+    "imponibile": "95.80",
+    "iva": "9.58",
+    "totale": "105.38"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 5,
+  "fields": {
+    "data": "2024-05-31",
+    "imponibile": "210.00",
+    "iva": "21.00",
+    "totale": "231.00"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 6,
+  "fields": {
+    "data": "2024-06-30",
+    "imponibile": "180.25",
+    "iva": "18.03",
+    "totale": "198.28"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 7,
+  "fields": {
+    "data": "2024-07-31",
+    "imponibile": "135.40",
+    "iva": "13.54",
+    "totale": "148.94"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 8,
+  "fields": {
+    "data": "2024-08-31",
+    "imponibile": "165.00",
+    "iva": "16.50",
+    "totale": "181.50"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 9,
+  "fields": {
+    "data": "2024-09-30",
+    "imponibile": "110.70",
+    "iva": "11.07",
+    "totale": "121.77"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 10,
+  "fields": {
+    "data": "2024-10-31",
+    "imponibile": "190.10",
+    "iva": "19.01",
+    "totale": "209.11"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 11,
+  "fields": {
+    "data": "2024-11-30",
+    "imponibile": "250.00",
+    "iva": "25.00",
+    "totale": "275.00"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 12,
+  "fields": {
+    "data": "2024-12-31",
+    "imponibile": "280.50",
+    "iva": "28.05",
+    "totale": "308.55"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 13,
+  "fields": {
+    "data": "2025-01-31",
+    "imponibile": "115.00",
+    "iva": "11.50",
+    "totale": "126.50"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 14,
+  "fields": {
+    "data": "2025-02-28",
+    "imponibile": "145.75",
+    "iva": "14.58",
+    "totale": "160.33"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 15,
+  "fields": {
+    "data": "2025-03-31",
+    "imponibile": "130.20",
+    "iva": "13.02",
+    "totale": "143.22"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 16,
+  "fields": {
+    "data": "2025-04-30",
+    "imponibile": "88.40",
+    "iva": "8.84",
+    "totale": "97.24"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 17,
+  "fields": {
+    "data": "2025-05-31",
+    "imponibile": "125.00",
+    "iva": "12.50",
+    "totale": "137.50"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 18,
+  "fields": {
+    "data": "2025-06-30",
+    "imponibile": "230.10",
+    "iva": "23.01",
+    "totale": "253.11"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 19,
+  "fields": {
+    "data": "2025-07-31",
+    "imponibile": "175.50",
+    "iva": "17.55",
+    "totale": "193.05"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 20,
+  "fields": {
+    "data": "2025-08-31",
+    "imponibile": "99.00",
+    "iva": "9.90",
+    "totale": "108.90"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 21,
+  "fields": {
+    "data": "2025-09-30",
+    "imponibile": "140.80",
+    "iva": "14.08",
+    "totale": "154.88"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 22,
+  "fields": {
+    "data": "2025-10-31",
+    "imponibile": "310.00",
+    "iva": "31.00",
+    "totale": "341.00"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 23,
+  "fields": {
+    "data": "2025-11-30",
+    "imponibile": "275.20",
+    "iva": "27.52",
+    "totale": "302.72"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 24,
+  "fields": {
+    "data": "2025-12-31",
+    "imponibile": "150.00",
+    "iva": "15.00",
+    "totale": "165.00"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 25,
+  "fields": {
+    "data": "2024-03-31",
+    "imponibile": "75.00",
+    "iva": "7.50",
+    "totale": "82.50"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 26,
+  "fields": {
+    "data": "2024-04-30",
+    "imponibile": "92.30",
+    "iva": "9.23",
+    "totale": "101.53"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 27,
+  "fields": {
+    "data": "2024-05-31",
+    "imponibile": "110.00",
+    "iva": "11.00",
+    "totale": "121.00"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 28,
+  "fields": {
+    "data": "2024-06-30",
+    "imponibile": "135.50",
+    "iva": "13.55",
+    "totale": "149.05"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 29,
+  "fields": {
+    "data": "2024-07-31",
+    "imponibile": "85.10",
+    "iva": "8.51",
+    "totale": "93.61"
+  }
+},
+{
+  "model": "core.fattura",
+  "pk": 30,
+  "fields": {
+    "data": "2024-08-31",
+    "imponibile": "160.00",
+    "iva": "16.00",
+    "totale": "176.00"
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 1,
+  "fields": {
+    "utenza": 1,
+    "fattura": 1,
+    "data": "2024-01-10",
+    "valore": 345
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 2,
+  "fields": {
+    "utenza": 1,
+    "fattura": 1,
+    "data": "2024-01-31",
+    "valore": 360
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 3,
+  "fields": {
+    "utenza": 1,
+    "fattura": 2,
+    "data": "2024-02-28",
+    "valore": 380
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 4,
+  "fields": {
+    "utenza": 3,
+    "fattura": null,
+    "data": "2024-02-15",
+    "valore": 120
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 5,
+  "fields": {
+    "utenza": 4,
+    "fattura": 3,
+    "data": "2024-03-15",
+    "valore": 1500
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 6,
+  "fields": {
+    "utenza": 4,
+    "fattura": 3,
+    "data": "2024-03-31",
+    "valore": 1550
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 7,
+  "fields": {
+    "utenza": 5,
+    "fattura": 4,
+    "data": "2024-04-12",
+    "valore": 210
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 8,
+  "fields": {
+    "utenza": 5,
+    "fattura": 4,
+    "data": "2024-04-30",
+    "valore": 240
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 9,
+  "fields": {
+    "utenza": 7,
+    "fattura": 5,
+    "data": "2024-05-10",
+    "valore": 850
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 10,
+  "fields": {
+    "utenza": 7,
+    "fattura": 5,
+    "data": "2024-05-31",
+    "valore": 900
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 11,
+  "fields": {
+    "utenza": 8,
+    "fattura": 6,
+    "data": "2024-06-15",
+    "valore": 1200
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 12,
+  "fields": {
+    "utenza": 8,
+    "fattura": 6,
+    "data": "2024-06-30",
+    "valore": 1260
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 13,
+  "fields": {
+    "utenza": 9,
+    "fattura": 7,
+    "data": "2024-07-11",
+    "valore": 3100
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 14,
+  "fields": {
+    "utenza": 9,
+    "fattura": 7,
+    "data": "2024-07-31",
+    "valore": 3180
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 15,
+  "fields": {
+    "utenza": 10,
+    "fattura": 8,
+    "data": "2024-08-14",
+    "valore": 450
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 16,
+  "fields": {
+    "utenza": 10,
+    "fattura": 8,
+    "data": "2024-08-31",
+    "valore": 490
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 17,
+  "fields": {
+    "utenza": 12,
+    "fattura": 9,
+    "data": "2024-09-18",
+    "valore": 620
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 18,
+  "fields": {
+    "utenza": 12,
+    "fattura": 9,
+    "data": "2024-09-30",
+    "valore": 665
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 19,
+  "fields": {
+    "utenza": 13,
+    "fattura": 10,
+    "data": "2024-10-20",
+    "valore": 1800
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 20,
+  "fields": {
+    "utenza": 13,
+    "fattura": 10,
+    "data": "2024-10-31",
+    "valore": 1870
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 21,
+  "fields": {
+    "utenza": 14,
+    "fattura": 11,
+    "data": "2024-11-13",
+    "valore": 2500
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 22,
+  "fields": {
+    "utenza": 14,
+    "fattura": 11,
+    "data": "2024-11-30",
+    "valore": 2590
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 23,
+  "fields": {
+    "utenza": 15,
+    "fattura": 12,
+    "data": "2024-12-15",
+    "valore": 780
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 24,
+  "fields": {
+    "utenza": 15,
+    "fattura": 12,
+    "data": "2024-12-31",
+    "valore": 830
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 25,
+  "fields": {
+    "utenza": 16,
+    "fattura": 13,
+    "data": "2025-01-10",
+    "valore": 1100
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 26,
+  "fields": {
+    "utenza": 16,
+    "fattura": 13,
+    "data": "2025-01-31",
+    "valore": 1150
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 27,
+  "fields": {
+    "utenza": 17,
+    "fattura": 14,
+    "data": "2025-02-12",
+    "valore": 1420
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 28,
+  "fields": {
+    "utenza": 17,
+    "fattura": 14,
+    "data": "2025-02-28",
+    "valore": 1480
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 29,
+  "fields": {
+    "utenza": 19,
+    "fattura": 15,
+    "data": "2025-03-15",
+    "valore": 950
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 30,
+  "fields": {
+    "utenza": 19,
+    "fattura": 15,
+    "data": "2025-03-31",
+    "valore": 1000
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 31,
+  "fields": {
+    "utenza": 20,
+    "fattura": null,
+    "data": "2025-03-20",
+    "valore": 300
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 32,
+  "fields": {
+    "utenza": 21,
+    "fattura": 1,
+    "data": "2024-01-20",
+    "valore": 5000
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 33,
+  "fields": {
+    "utenza": 21,
+    "fattura": 1,
+    "data": "2024-01-31",
+    "valore": 5080
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 34,
+  "fields": {
+    "utenza": 22,
+    "fattura": 2,
+    "data": "2024-02-18",
+    "valore": 150
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 35,
+  "fields": {
+    "utenza": 22,
+    "fattura": 2,
+    "data": "2024-02-29",
+    "valore": 190
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 36,
+  "fields": {
+    "utenza": 23,
+    "fattura": 3,
+    "data": "2024-03-22",
+    "valore": 710
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 37,
+  "fields": {
+    "utenza": 23,
+    "fattura": 3,
+    "data": "2024-03-31",
+    "valore": 750
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 38,
+  "fields": {
+    "utenza": 25,
+    "fattura": 4,
+    "data": "2024-04-25",
+    "valore": 1300
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 39,
+  "fields": {
+    "utenza": 25,
+    "fattura": 4,
+    "data": "2024-04-30",
+    "valore": 1345
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 40,
+  "fields": {
+    "utenza": 26,
+    "fattura": 5,
+    "data": "2024-05-19",
+    "valore": 2100
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 41,
+  "fields": {
+    "utenza": 26,
+    "fattura": 5,
+    "data": "2024-05-31",
+    "valore": 2170
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 42,
+  "fields": {
+    "utenza": 27,
+    "fattura": 6,
+    "data": "2024-06-21",
+    "valore": 400
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 43,
+  "fields": {
+    "utenza": 27,
+    "fattura": 6,
+    "data": "2024-06-30",
+    "valore": 450
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 44,
+  "fields": {
+    "utenza": 28,
+    "fattura": 7,
+    "data": "2024-07-23",
+    "valore": 1600
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 45,
+  "fields": {
+    "utenza": 28,
+    "fattura": 7,
+    "data": "2024-07-31",
+    "valore": 1660
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 46,
+  "fields": {
+    "utenza": 29,
+    "fattura": 8,
+    "data": "2024-08-20",
+    "valore": 880
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 47,
+  "fields": {
+    "utenza": 29,
+    "fattura": 8,
+    "data": "2024-08-31",
+    "valore": 920
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 48,
+  "fields": {
+    "utenza": 30,
+    "fattura": 9,
+    "data": "2024-09-24",
+    "valore": 1950
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 49,
+  "fields": {
+    "utenza": 30,
+    "fattura": 9,
+    "data": "2024-09-30",
+    "valore": 2000
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 50,
+  "fields": {
+    "utenza": 31,
+    "fattura": 16,
+    "data": "2025-04-15",
+    "valore": 50
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 51,
+  "fields": {
+    "utenza": 31,
+    "fattura": 16,
+    "data": "2025-04-30",
+    "valore": 85
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 52,
+  "fields": {
+    "utenza": 32,
+    "fattura": 17,
+    "data": "2025-05-12",
+    "valore": 200
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 53,
+  "fields": {
+    "utenza": 32,
+    "fattura": 17,
+    "data": "2025-05-31",
+    "valore": 255
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 54,
+  "fields": {
+    "utenza": 34,
+    "fattura": 18,
+    "data": "2025-06-10",
+    "valore": 10
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 55,
+  "fields": {
+    "utenza": 34,
+    "fattura": 18,
+    "data": "2025-06-30",
+    "valore": 90
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 56,
+  "fields": {
+    "utenza": 35,
+    "fattura": 19,
+    "data": "2025-07-14",
+    "valore": 1100
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 57,
+  "fields": {
+    "utenza": 35,
+    "fattura": 19,
+    "data": "2025-07-31",
+    "valore": 1180
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 58,
+  "fields": {
+    "utenza": 36,
+    "fattura": 20,
+    "data": "2025-08-11",
+    "valore": 2500
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 59,
+  "fields": {
+    "utenza": 36,
+    "fattura": 20,
+    "data": "2025-08-31",
+    "valore": 2560
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 60,
+  "fields": {
+    "utenza": 37,
+    "fattura": 21,
+    "data": "2025-09-18",
+    "valore": 310
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 61,
+  "fields": {
+    "utenza": 37,
+    "fattura": 21,
+    "data": "2025-09-30",
+    "valore": 365
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 62,
+  "fields": {
+    "utenza": 38,
+    "fattura": 22,
+    "data": "2025-10-15",
+    "valore": 800
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 63,
+  "fields": {
+    "utenza": 38,
+    "fattura": 22,
+    "data": "2025-10-31",
+    "valore": 890
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 64,
+  "fields": {
+    "utenza": 40,
+    "fattura": 23,
+    "data": "2025-11-13",
+    "valore": 40
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 65,
+  "fields": {
+    "utenza": 40,
+    "fattura": 23,
+    "data": "2025-11-30",
+    "valore": 110
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 66,
+  "fields": {
+    "utenza": 41,
+    "fattura": 24,
+    "data": "2025-12-20",
+    "valore": 1400
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 67,
+  "fields": {
+    "utenza": 41,
+    "fattura": 24,
+    "data": "2025-12-31",
+    "valore": 1480
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 68,
+  "fields": {
+    "utenza": 42,
+    "fattura": 25,
+    "data": "2024-03-10",
+    "valore": 3000
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 69,
+  "fields": {
+    "utenza": 42,
+    "fattura": 25,
+    "data": "2024-03-31",
+    "valore": 3060
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 70,
+  "fields": {
+    "utenza": 43,
+    "fattura": 26,
+    "data": "2024-04-11",
+    "valore": 250
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 71,
+  "fields": {
+    "utenza": 43,
+    "fattura": 26,
+    "data": "2024-04-30",
+    "valore": 300
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 72,
+  "fields": {
+    "utenza": 44,
+    "fattura": 27,
+    "data": "2024-05-16",
+    "valore": 4100
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 73,
+  "fields": {
+    "utenza": 44,
+    "fattura": 27,
+    "data": "2024-05-31",
+    "valore": 4180
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 74,
+  "fields": {
+    "utenza": 45,
+    "fattura": 28,
+    "data": "2024-06-12",
+    "valore": 100
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 75,
+  "fields": {
+    "utenza": 45,
+    "fattura": 28,
+    "data": "2024-06-30",
+    "valore": 165
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 76,
+  "fields": {
+    "utenza": 46,
+    "fattura": 29,
+    "data": "2024-07-10",
+    "valore": 10
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 77,
+  "fields": {
+    "utenza": 46,
+    "fattura": 29,
+    "data": "2024-07-31",
+    "valore": 45
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 78,
+  "fields": {
+    "utenza": 47,
+    "fattura": 30,
+    "data": "2024-08-15",
+    "valore": 2100
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 79,
+  "fields": {
+    "utenza": 47,
+    "fattura": 30,
+    "data": "2024-08-31",
+    "valore": 2190
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 80,
+  "fields": {
+    "utenza": 1,
+    "fattura": 15,
+    "data": "2025-03-31",
+    "valore": 405
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 81,
+  "fields": {
+    "utenza": 49,
+    "fattura": null,
+    "data": "2024-04-15",
+    "valore": 20
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 82,
+  "fields": {
+    "utenza": 3,
+    "fattura": 25,
+    "data": "2024-03-28",
+    "valore": 155
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 83,
+  "fields": {
+    "utenza": 5,
+    "fattura": 26,
+    "data": "2024-04-28",
+    "valore": 275
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 84,
+  "fields": {
+    "utenza": 8,
+    "fattura": 27,
+    "data": "2024-05-29",
+    "valore": 1295
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 85,
+  "fields": {
+    "utenza": 10,
+    "fattura": 28,
+    "data": "2024-06-27",
+    "valore": 530
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 86,
+  "fields": {
+    "utenza": 13,
+    "fattura": 29,
+    "data": "2024-07-28",
+    "valore": 1910
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 87,
+  "fields": {
+    "utenza": 16,
+    "fattura": 30,
+    "data": "2024-08-29",
+    "valore": 1195
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 88,
+  "fields": {
+    "utenza": 1,
+    "fattura": null,
+    "data": "2025-04-10",
+    "valore": 420
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 89,
+  "fields": {
+    "utenza": 1,
+    "fattura": null,
+    "data": "2025-04-30",
+    "valore": 445
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 90,
+  "fields": {
+    "utenza": 32,
+    "fattura": null,
+    "data": "2025-06-15",
+    "valore": 290
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 91,
+  "fields": {
+    "utenza": 34,
+    "fattura": null,
+    "data": "2025-07-15",
+    "valore": 130
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 92,
+  "fields": {
+    "utenza": 3,
+    "fattura": null,
+    "data": "2025-05-01",
+    "valore": 121
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 93,
+  "fields": {
+    "utenza": 12,
+    "fattura": null,
+    "data": "2024-10-15",
+    "valore": 680
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 94,
+  "fields": {
+    "utenza": 20,
+    "fattura": null,
+    "data": "2025-04-25",
+    "valore": 330
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 95,
+  "fields": {
+    "utenza": 21,
+    "fattura": null,
+    "data": "2024-02-28",
+    "valore": 5110
+  }
+},
+{
+  "model": "core.lettura",
+  "pk": 96,
+  "fields": {
+    "utenza": 25,
+    "fattura": null,
+    "data": "2024-05-31",
+    "valore": 1390
+  }
+}
+]

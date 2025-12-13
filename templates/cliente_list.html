@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="h4 fw-bold text-dark">Clienti</h2>
+    <a href="{% url 'cliente_create' %}" class="btn btn-dark btn-sm px-3 shadow-sm">
+        <i class="bi bi-plus-lg me-1"></i> Nuovo
+    </a>
+</div>
+
+<!-- Filtri -->
+<div class="card shadow-sm mb-4 border-0 rounded-3">
+    <div class="card-body p-4 bg-white rounded-3">
+        <form method="get" class="row g-3">
+            <div class="col-md-3">
+                <label class="form-label small text-uppercase text-secondary fw-bold">Codice Fiscale</label>
+                {{ form.cf }}
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small text-uppercase text-secondary fw-bold">Ragione Sociale</label>
+                {{ form.rag_soc }}
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small text-uppercase text-secondary fw-bold">Città</label>
+                {{ form.citta }}
+            </div>
+            <div class="col-md-3 d-flex align-items-end gap-2">
+                <button type="submit" class="btn btn-secondary w-100">Cerca</button>
+                <a href="{% url 'cliente_list' %}" class="btn btn-outline-secondary w-100">Reset</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Tabella -->
+<div class="card shadow-sm border-0 rounded-3 overflow-hidden">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th class="ps-4 py-3">Codice</th>
+                    <th class="py-3">Ragione Sociale / CF</th>
+                    <th class="py-3">Indirizzo</th>
+                    <th class="py-3 text-center">Utenze</th>
+                    <th class="text-end pe-4 py-3">Azioni</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white">
+                {% for c in clienti %}
+                <tr>
+                    <td class="ps-4 text-secondary">#{{ c.codice }}</td>
+                    <td>
+                        <div class="fw-bold text-dark">{{ c.rag_soc }}</div>
+                        <div class="small text-secondary font-monospace">{{ c.cf }}</div>
+                    </td>
+                    <td>
+                        <span class="d-block">{{ c.indirizzo }}</span>
+                        <small class="text-muted">{{ c.citta }}</small>
+                    </td>
+                    <td class="text-center">
+                        {% if c.num_utenze > 0 %}
+                        <a href="{% url 'utenza_list' %}?cliente_id={{ c.codice }}"
+                            class="badge bg-dark text-decoration-none rounded-pill px-3 py-2">
+                            {{ c.num_utenze }} <i class="bi bi-arrow-right-short"></i>
+                        </a>
+                        {% else %}
+                        <span class="badge bg-light text-secondary border rounded-pill">{{ c.num_utenze }}</span>
+                        {% endif %}
+                    </td>
+                    <td class="text-end pe-4">
+                        <div class="btn-group">
+                            <a href="{% url 'cliente_edit' c.codice %}"
+                                class="btn btn-sm btn-outline-secondary border-0"><i
+                                    class="bi bi-pencil-square"></i></a>
+                            <a href="{% url 'cliente_delete' c.codice %}"
+                                class="btn btn-sm btn-outline-danger border-0"><i class="bi bi-trash"></i></a>
+                        </div>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5" class="text-center py-5 text-muted">Nessun cliente trovato.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="h4 fw-bold text-dark">Storico Letture</h2>
+</div>
+
+<!-- Filtri -->
+<div class="card shadow-sm mb-4 border-0 rounded-3">
+    <div class="card-body p-4 bg-white rounded-3">
+        <form method="get" class="row g-3">
+            <div class="col-md-2">
+                <label class="form-label small text-secondary fw-bold">ID Utenza</label>
+                {{ form.utenza_id }}
+            </div>
+            <div class="col-md-2">
+                <label class="form-label small text-secondary fw-bold">N. Fattura</label>
+                {{ form.fattura_id }}
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small text-secondary fw-bold">Data da</label>
+                {{ form.data_da }}
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small text-secondary fw-bold">Data a</label>
+                {{ form.data_a }}
+            </div>
+            <div class="col-md-2 d-flex align-items-end gap-2">
+                <button type="submit" class="btn btn-dark w-100">Filtra</button>
+                <a href="{% url 'lettura_list' %}" class="btn btn-outline-secondary w-100">Reset</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Tabella -->
+<div class="card shadow-sm border-0 rounded-3 overflow-hidden">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th class="ps-4 py-3">ID Lettura</th>
+                    <th class="py-3">Data Rilevazione</th>
+                    <th class="py-3">Valore Mc</th>
+                    <th class="py-3">Riferimento Utenza</th>
+                    <th class="py-3">Stato Fatturazione</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white">
+                {% for l in letture %}
+                <tr>
+                    <td class="ps-4 text-secondary">#{{ l.numero }}</td>
+                    <td class="fw-bold">{{ l.data|date:"d/m/Y" }}</td>
+                    <td>
+                        <span class="badge bg-light text-dark border fs-6 font-monospace">{{ l.valore }}</span>
+                    </td>
+                    <td>
+                        <div class="small">
+                            <span class="fw-bold">Utenza #{{ l.utenza.codice }}</span>
+                            - {{ l.utenza.citta }}
+                        </div>
+                        <a href="{% url 'cliente_list' %}?cf={{ l.utenza.cliente.cf }}"
+                            class="small text-decoration-none text-secondary">
+                            {{ l.utenza.cliente.rag_soc }}
+                        </a>
+                    </td>
+                    <td>
+                        {% if l.fattura %}
+                        <a href="{% url 'fattura_list' %}?numero={{ l.fattura.numero }}"
+                            class="badge bg-success-subtle text-success text-decoration-none border border-success-subtle px-2 py-1">
+                            <i class="bi bi-check-circle-fill me-1"></i> Fattura n.{{ l.fattura.numero }}
+                        </a>
+                        {% else %}
+                        <span
+                            class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1">
+                            Non fatturata
+                        </span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5" class="text-center py-5 text-muted">
+                        Nessuna lettura trovata.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

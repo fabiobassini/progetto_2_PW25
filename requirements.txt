@@ -1,0 +1,8 @@
+# Django 4.2 LTS (Compatibile con Python 3.8+)
+Django>=4.2,<5.0
+
+# sono sicuro che non crei problemi di compatibilità
+pymysql>=1.1.0
+
+# (Opzionale) Per gestire le variabili d'ambiente .env se decidi di usarle in futuro
+python-dotenv>=1.0.0

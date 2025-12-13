@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6 col-lg-5">
+
+        <div class="card border-0 shadow-lg rounded-3 overflow-hidden">
+            <!-- Header differenziato in base allo stato -->
+            <div
+                class="card-header border-0 py-3 text-center {% if utenze_count > 0 %}bg-danger-subtle text-danger{% else %}bg-warning-subtle text-warning-emphasis{% endif %}">
+                <i
+                    class="bi {% if utenze_count > 0 %}bi-shield-lock-fill{% else %}bi-exclamation-triangle-fill{% endif %} display-4"></i>
+                <h4 class="fw-bold mt-2 mb-0">
+                    {% if utenze_count > 0 %}Eliminazione Bloccata{% else %}Conferma Eliminazione{% endif %}
+                </h4>
+            </div>
+
+            <div class="card-body p-4 text-center">
+                <p class="text-secondary mb-1">Stai agendo sul cliente:</p>
+                <h5 class="fw-bold text-dark mb-3">{{ cliente.rag_soc }}</h5>
+                <div class="badge bg-light text-dark border px-3 py-2 mb-4">
+                    CF: {{ cliente.cf }} &bull; {{ cliente.citta }}
+                </div>
+
+                {% if utenze_count > 0 %}
+                <!-- Caso: Impossibile cancellare -->
+                <div class="alert alert-danger text-start border-0 shadow-sm" role="alert">
+                    <div class="d-flex">
+                        <i class="bi bi-x-circle-fill me-3 fs-4"></i>
+                        <div>
+                            <strong>Operazione non consentita.</strong><br>
+                            Risultano ancora <strong>{{ utenze_count }}</strong> utenze attive associate a questo
+                            cliente.
+                        </div>
+                    </div>
+                </div>
+                <p class="small text-muted text-start mt-2">
+                    Per procedere, devi prima eliminare le utenze o trasferirle a un altro intestatario.
+                </p>
+                <div class="d-grid mt-4">
+                    <a href="{% url 'cliente_list' %}" class="btn btn-secondary">Torna alla lista</a>
+                </div>
+
+                {% else %}
+                <!-- Caso: Cancellazione permessa -->
+                <div class="alert alert-warning text-start border-0 bg-warning-subtle text-warning-emphasis"
+                    role="alert">
+                    <i class="bi bi-info-circle-fill me-2"></i>
+                    Questa operazione è <strong>irreversibile</strong>. Tutti i dati anagrafici verranno rimossi
+                    permanentemente dal database.
+                </div>
+
+                <form method="post" class="mt-4">
+                    {% csrf_token %}
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-danger fw-bold py-2">
+                            <i class="bi bi-trash-fill me-2"></i>Sì, elimina definitivamente
+                        </button>
+                        <a href="{% url 'cliente_list' %}" class="btn btn-link text-secondary text-decoration-none">
+                            Annulla e torna indietro
+                        </a>
+                    </div>
+                </form>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

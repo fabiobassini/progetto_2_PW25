@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="h4 fw-bold text-dark">Elenco Utenze</h2>
+</div>
+
+<!-- Filtri di Ricerca -->
+<div class="card shadow-sm mb-4 border-0 rounded-3">
+    <div class="card-body p-4 bg-white rounded-3">
+        <h5 class="card-title text-uppercase fs-6 text-secondary fw-bold mb-3">Filtra Utenze</h5>
+        <form method="get" class="row g-3">
+            <div class="col-md-3">
+                <label class="form-label small text-secondary fw-bold">ID Cliente</label>
+                {{ form.cliente_id }}
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small text-secondary fw-bold">Stato Contratto</label>
+                {{ form.stato }}
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small text-secondary fw-bold">Città</label>
+                {{ form.citta }}
+            </div>
+            <div class="col-md-3 d-flex align-items-end gap-2">
+                <button type="submit" class="btn btn-dark w-100">Cerca</button>
+                <a href="{% url 'utenza_list' %}" class="btn btn-outline-secondary w-100">Reset</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Tabella Risultati -->
+<div class="card shadow-sm border-0 rounded-3 overflow-hidden">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr class="bg-light">
+                    <th class="ps-4 py-3 text-secondary text-uppercase small">ID</th>
+                    <th class="py-3 text-secondary text-uppercase small">Cliente</th>
+                    <th class="py-3 text-secondary text-uppercase small">Indirizzo / Città</th>
+                    <th class="py-3 text-secondary text-uppercase small">Data Apertura</th>
+                    <th class="py-3 text-secondary text-uppercase small text-center">Stato</th>
+                    <th class="py-3 text-secondary text-uppercase small text-center">Letture</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white">
+                {% for u in utenze %}
+                <tr>
+                    <td class="ps-4 text-muted fw-bold">#{{ u.codice }}</td>
+                    <td>
+                        <div class="fw-bold text-dark">{{ u.cliente.rag_soc }}</div>
+                        <a href="{% url 'cliente_list' %}?cf={{ u.cliente.cf }}"
+                            class="small text-decoration-none text-secondary">
+                            Cliente #{{ u.cliente.codice }}
+                        </a>
+                    </td>
+                    <td>
+                        <span class="d-block text-dark">{{ u.indirizzo }}</span>
+                        <small class="text-muted">{{ u.citta }}</small>
+                    </td>
+                    <td class="text-muted font-monospace small">
+                        {{ u.data_apertura|date:"d/m/Y" }}
+                    </td>
+                    <td class="text-center">
+                        {% if u.stato == 'attivo' %}
+                        <span
+                            class="badge bg-success-subtle text-success border border-success-subtle rounded-pill px-3">
+                            Attivo
+                        </span>
+                        {% else %}
+                        <span
+                            class="badge bg-secondary-subtle text-secondary border border-secondary-subtle rounded-pill px-3">
+                            Inattivo
+                        </span>
+                        {% endif %}
+                    </td>
+                    <td class="text-center">
+                        <span class="badge bg-light text-dark border rounded-pill">
+                            {{ u.num_letture }}
+                        </span>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="6" class="text-center py-5 text-muted">
+                        <i class="bi bi-inbox fs-1 d-block mb-3 text-secondary opacity-50"></i>
+                        Nessuna utenza trovata con i criteri selezionati.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
